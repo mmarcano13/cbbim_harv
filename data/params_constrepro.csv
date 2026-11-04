@@ -1,0 +1,16 @@
+Parameter,Value
+coffee_total,1000.0
+kappa_b_berry,20.0
+rho_b,0.0345
+epsbe2rhob,0.75
+del_b,0.001
+cu0,1.0
+t0,0.0
+th,184.0
+tf,364.0
+delta_t,0.5
+ci1,0.0
+be,0.0
+eps_c,0.7424983278058749
+eps_ci,0.0229999999999956
+eps_bo,0.033383591615134205
