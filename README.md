@@ -32,9 +32,15 @@ cd cbbim_harv
 - matplotlib
 - IPython
 ## Usage  
-To reproduce results similar to those in Marcano et al 2021, run pyscripts/simulations.py and pyscripts/bifdiagram.py or the Jupyter notebook notebooks/simulations.ipynb.
+To reproduce results similar to those in Marcano et al 2021:
+```bash  
+cd pyscripts 
+python simulations.py 
+python bifdiagram.py 
+```
+or execute the Jupyter notebook at notebooks/simulations.ipynb.
 
-If a different infestation dataset is available, replace the file data/data_infestation.csv with the new file (following the same format), if deeemed necessary, adjust the parameter bounds in the dictionary varrate_bnds (line 69) in the function bounds of pyscripts/calibration_cls.py, then run pyscripts/fitting.py or the Jupyter notebook notebooks/fitting.ipynb, several times and choose the "best" solution.
+If a different infestation dataset is available, replace the file data/data_infestation.csv with the new file (following the same format), if deeemed necessary, adjust the parameter bounds in the dictionary varrate_bnds (line 69) in the function bounds of pyscripts/calibration_cls.py, then run fitting.py or the Jupyter notebook fitting.ipynb, several times and choose the "best" solution.
 ## Contributing  
 
 Contributions are currently not accepted for this project.
