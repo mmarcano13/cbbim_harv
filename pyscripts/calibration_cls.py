@@ -74,6 +74,11 @@ class estimation():
                         /self.parameters['kappa_b'])
         varb0s_upper = (np.array([65, 330, 110, 275])
                         /self.parameters['kappa_b'])
+        if (varb0s_lower.size!=len(self.df_data) or
+           varb0s_upper.size!=len(self.df_data)):
+            raise Exception(('the number of initial free CBBs must '
+                             'be equal to \nthe number of years in the data '
+                             'file ../data/data_infestation.csv'))
         for key, value in varrate_bnds.items():
             self.x_lower = np.append(self.x_lower, value[0])
             self.x_upper = np.append(self.x_upper, value[1])
