@@ -2,7 +2,7 @@
 """
 author: Mariano Marcano
 contact: mariano.marcano@gmail.com
-date: 2026-10-26
+date: 2026-11-17
 license: BSD 3-Clause
 """
 import sys
